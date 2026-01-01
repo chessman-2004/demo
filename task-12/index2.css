@@ -1,0 +1,56 @@
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing : border-box;
+}
+
+html,body{
+    height:100%;
+    width:100%;
+}
+
+body { 
+    background-image: url('https://imgs.search.brave.com/H5dgHq0ey2o4QzX6R8UqFO8wvH62g78tjYdYaRSKG5A/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9mcmVl/LTNkdGV4dHVyZXNo/ZC5jb20vd3AtY29u/dGVudC91cGxvYWRz/LzIwMjQvMDUvMjcw/LTQ4MHgzMDAuanBn/LndlYnA');
+    background-position : center;
+    background-size : cover;
+    background-repeat: no-repeat;
+}
+
+@font-face {
+    font-family: t2;
+    src: url('./NewSuperman-Pzd7.ttf');
+}
+
+@font-face {
+    font-family: t3;
+    src: url('./TowerOfSilenceGradientItal-rgjBO.otf');
+}
+
+.superman-div{
+    padding : 160px;
+    text-align:center;
+}
+
+#div1-h1{
+    margin-bottom : 40px;
+    font-weight : 800;
+    font-family : t2;   
+    font-size: 70px;
+    text-shadow: 0 0 25px #ff0000;
+}
+
+
+#div1-b1{
+    padding : 20px 40px;
+    border : none;
+    border-radius : 50px;
+    font-family : t3;
+    font-size : 25px;
+    color : linear-gradient(right,orange,red);
+    transition : color,box-shadow 1s ease;
+}
+
+#div1-b1:hover{
+    box-shadow : 0 0 50px #ff0000;
+    color : linear-gradient(to right,orange,red);
+}
