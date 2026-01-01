@@ -1,38 +1,137 @@
 *{
-    margin:0%;
-    padding:0%;
-    box-sizing:border-box;
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
 }
-html,
-body{
+@font-face {
+    font-family: tharun;
+    src: url('./Sora-ExtraLight.otf');
+}
+
+html,body{
     height:100%;
-    width:100%
+    width:100%;
+    text-align:center
 }
 
-html{
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
-}
 body{
-    display:flex;
-    flex-direction: column;
-    align-items:center;
-    justify-content:center;
-    gap:20px;
-    background-color:#181818;
-    font-family:Arial,sans-serif;
+    background-color: #f3f3f4;
 }
 
-h1{
-    color:rgb(185,247,144);
-}
-
-button{
-    padding : 10px 20px;
-    font-size:16px;
+.div1{
+    background-color: #1d3557;
     color:white;
-    background-color : rgb(156,203,132);
-    border:none;
-    border-radius:5px;
-    cursor:pointer;
-    transition:background-color 0.3s ease;
+    height:250px;
+}
+#h1{
+    padding-top:100px;
+    text-transform: uppercase;
+}
+
+#p1{
+    font-style:italic;
+    padding-top:20px;
+    text-transform: capitalize;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:lighter;
+}
+
+.div2{
+    width:80%;
+    margin-left:10%;
+    background-color:white;
+    border-color: black;
+    border-width: 5px;
+    margin-top:30px;
+    height:200px;
+    padding:10px;
+    border-radius:4px;
+}
+
+#h2{
+    text-transform:uppercase;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top:50px;
+    font-weight:bold;
+}
+
+#p2{
+    margin-top: 20px;
+    font-family:tharun;
+}
+
+.div3{
+    width:80%;
+    margin-left:10%;
+    background-color:lightblue;
+    border-color: black;
+    border-width: 5px;
+    margin-top:30px;
+    height:250px;
+    padding:10px;
+    border-radius:4px;
+    text-align:center;
+}
+
+#h2{
+    text-transform:uppercase;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top:50px;
+    font-weight:bold;
+}
+
+#p3{
+    background-color:white;
+    width:60%;
+    margin-left:20%;
+    padding:10px;
+    border-radius:4px;
+    margin-top:10px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.inner1{
+    margin-top:20px;
+}
+.div4{
+    width:80%;
+    margin-left:10%;
+    background-color:#fbf8cc;
+    border-color: black;
+    border-width: 5px;
+    margin-top:30px;
+    height:350px;
+    padding:10px;
+    border-radius:4px;
+    text-align:center;
+    text-transform: uppercase;
+    font-weight:bold;
+}
+.div5{
+    width:80%;
+    margin-left:10%;
+    /* background-color:#e0aaff; */
+    background-color : lavender;
+    border-color: black;
+    border-width: 5px;
+    margin-top:30px;
+    height:300px;
+    padding:10px;
+    border-radius:4px;
+    text-align:center;
+    text-transform:capitalize;
+    font-weight:bold;
+}
+.div6{
+    width:80%;
+    margin-left:10%;
+    background-color : #b2ff9e;
+    border-color: black;
+    border-width: 5px;
+    margin-top:30px;
+    height:300px;
+    padding:10px;
+    border-radius:4px;
+    text-align:center;
+    text-transform:capitalize;
+    font-weight:bold;
 }
